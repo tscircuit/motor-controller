@@ -14,5 +14,65 @@ export default {
   manual_edit_id: "abcdef",
 
   // Manual pcb placements, added when you drag a footprint
-  pcb_placements: [],
+  pcb_placements: [
+      {
+        "_edit_event_id": "0.5340332929499954",
+        "selector": ".U1",
+        "center": {
+          "x": 0.16047563200552872,
+          "y": 3.0045970734593066
+        },
+        "relative_to": "group_center"
+      },
+      {
+        "_edit_event_id": "0.6227520277242637",
+        "selector": ".R1",
+        "center": {
+          "x": 7.358162122442685,
+          "y": 4.4487274659076945
+        },
+        "relative_to": "group_center"
+      },
+      {
+        "_edit_event_id": "0.698321896197684",
+        "selector": ".C2",
+        "center": {
+          "x": 10.040989900051741,
+          "y": -0.34571430950733273
+        },
+        "relative_to": "group_center"
+      },
+      {
+        "_edit_event_id": "0.694421244981795",
+        "selector": ".C3",
+        "center": {
+          "x": 9.701708433778615,
+          "y": -8.173734229851792
+        },
+        "relative_to": "group_center"
+      }
+    ],
+    edit_events: [],
+    manual_trace_hints: [
+      {
+        "pcb_port_selector": ".C2 > .left",
+        "offsets": [
+          {
+            "x": 7.35804070244359,
+            "y": -1.1224636088241784,
+            "via": false
+          },
+          {
+            "x": 6.5855467594075385,
+            "y": -0.5782065125942317,
+            "via": true
+          },
+          {
+            "x": 1.8803563790970428,
+            "y": 4.794137727611036,
+            "via": true
+          }
+        ]
+      }
+    ]
 }

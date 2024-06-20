@@ -3,3 +3,4 @@
 *.__tmp_entrypoint.tsx
 dist
 node_modules
+docs
