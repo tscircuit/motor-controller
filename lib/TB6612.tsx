@@ -4,14 +4,16 @@ import { createUseComponent } from "tscircuit"
 const pinLabels = {
   1: "A01",
   2: "A02",
-  3: "PGND1",
-  4: "PNGD1",
+  3: "PGND1_1",
+  4: "PGND1_2",
   5: "A02",
   6: "B02",
-  9: "PNGD2",
-  10: "PNGD2",
-  11: "B01",
-  12: "B01",
+  7: "BOUT2_1",
+  8: "BOUT2_2",
+  9: "PGND2_1",
+  10: "PGND2_2",
+  11: "BOUT1_1",
+  12: "BOUT1_2",
   13: "VM2",
   14: "VM3",
   15: "PWMB",
@@ -33,7 +35,7 @@ export const TB6612 = ({ name }: { name: string }) => {
       name={name}
       pinLabels={pinLabels}
       footprint="ssop24_w7.5mm"
-      schPinSpacing={1}
+      schPinSpacing={0.75}
       schPortArrangement={{
         leftSide: {
           direction: "top-to-bottom",

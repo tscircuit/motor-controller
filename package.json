@@ -1,5 +1,5 @@
 {
-  "name": ".",
+  "name": "@tscircuit/motor-controller",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -13,7 +13,7 @@
   "license": "ISC",
   "description": "",
   "devDependencies": {
-    "tscircuit": "^0.0.184",
+    "tscircuit": "^0.0.192",
     "tsx": "^4.15.6",
     "typescript": "^5.5.2"
   },
