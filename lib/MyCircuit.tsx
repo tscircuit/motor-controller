@@ -59,12 +59,18 @@ export const MyCircuit = () => {
         PWMB="net.PWMB"
         PGND2_1="net.GND"
         PGND2_2={U1.PGND2_1}
-        BOUT1_1={U1.BOUT1_2}
-        BOUT2_1={JP3.MB1}
-        // BOUT2_1={JP3}
-        // BOUT1={U1.B
+        BOUT1_1={JP3.MB1}
+        BOUT1_2={U1.BOUT1_1}
+        BOUT2_1={JP3.MB2}
+        BOUT2_2={U1.BOUT2_1}
+        PGND1_1="net.GND"
+        PGND1_2="net.GND"
+        AOUT1_1={JP3.MA1}
+        AOUT1_2={U1.AOUT1_1}
+        AOUT2_1={JP3.MA2}
+        AOUT2_2={U1.AOUT2_1}
       />
-      <JP3 />
+      <JP3 GND="net.GND" />
       <R1 schRotation="90deg" right={U1.VCC} left={U1.STBY} />
       <C2 schRotation="-90deg" left={U1.VCC} right="net.GND" />
       <C3 schRotation="-90deg" left="net.VMOTOR" right="net.GND" />

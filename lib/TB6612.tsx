@@ -2,12 +2,12 @@
 import { createUseComponent } from "tscircuit"
 
 const pinLabels = {
-  1: "A01",
-  2: "A02",
+  1: "AOUT1_1",
+  2: "AOUT1_2",
   3: "PGND1_1",
   4: "PGND1_2",
-  5: "A02",
-  6: "B02",
+  5: "AOUT2_1",
+  6: "AOUT2_2",
   7: "BOUT2_1",
   8: "BOUT2_2",
   9: "PGND2_1",
