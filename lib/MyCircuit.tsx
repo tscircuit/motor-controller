@@ -6,15 +6,21 @@ export const MyCircuit = () => {
   const R1 = useResistor("R1", {
     resistance: "10k", // TODO
     footprint: "res0402",
+    schX: -5,
+    schY: 0,
   })
   const U1 = useTB6612("U1")
   const C2 = useCapacitor("C2", {
     capacitance: "1uF", // TODO
     footprint: "cap0603",
+    schX: -4,
+    schY: 1,
   })
   const C3 = useCapacitor("C3", {
     capacitance: "1uF", // TODO
     footprint: "cap0603",
+    schX: -6,
+    schY: -2,
   })
 
   const JP3 = useBug("JP3", {
@@ -31,8 +37,15 @@ export const MyCircuit = () => {
       leftSize: 5,
     },
   })
+
+  // Why is autolayout not working!!!!!! It puts JP3 on the left!
   return (
-    <group layout={layout().manualEdits(manual_edits).autoLayoutSchematic()}>
+    <group
+      layout={
+        layout().manualEdits(manual_edits)
+        // .autoLayoutSchematic()
+      }
+    >
       <U1
         VM1="net.VMOTOR"
         VM2="net.VMOTOR"
