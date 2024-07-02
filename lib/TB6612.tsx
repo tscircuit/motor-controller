@@ -1,5 +1,6 @@
 // import { useBug } from "tscircuit"
 import { createUseComponent } from "tscircuit"
+import type { CommonLayoutProps } from "@tscircuit/props"
 
 const pinLabels = {
   1: "AOUT1_1",
@@ -29,10 +30,14 @@ const pinLabels = {
 } as const
 const pinNames = Object.values(pinLabels)
 
-export const TB6612 = ({ name }: { name: string }) => {
+interface Props extends CommonLayoutProps {
+  name: string
+}
+
+export const TB6612 = (props: Props) => {
   return (
     <bug
-      name={name}
+      {...props}
       pinLabels={pinLabels}
       footprint="ssop24_w7.5mm"
       schPinSpacing={0.75}
