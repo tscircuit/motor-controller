@@ -13,7 +13,8 @@
   "license": "ISC",
   "description": "",
   "devDependencies": {
-    "tscircuit": "^0.0.192",
+    "@tscircuit/builder": "^1.5.136",
+    "tscircuit": "^0.0.212",
     "tsx": "^4.15.6",
     "typescript": "^5.5.2"
   },

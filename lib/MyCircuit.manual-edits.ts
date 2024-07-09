@@ -37,8 +37,8 @@ export default {
         "_edit_event_id": "0.698321896197684",
         "selector": ".C2",
         "center": {
-          "x": 10.040989900051741,
-          "y": -0.34571430950733273
+          "x": 12.069849623214214,
+          "y": 3.946139621117802
         },
         "relative_to": "group_center"
       },
@@ -48,6 +48,15 @@ export default {
         "center": {
           "x": 9.701708433778615,
           "y": -8.173734229851792
+        },
+        "relative_to": "group_center"
+      },
+      {
+        "_edit_event_id": "0.14577610722156287",
+        "selector": ".U2",
+        "center": {
+          "x": -10.924629278567146,
+          "y": 1.0619322663050923
         },
         "relative_to": "group_center"
       }

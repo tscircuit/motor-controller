@@ -1,6 +1,7 @@
 import { layout, useResistor, useCapacitor, useBug } from "tscircuit"
 import manual_edits from "./MyCircuit.manual-edits"
 import { TB6612, useTB6612 } from "./TB6612"
+import { C88224 } from "gen/C88224"
 
 export const MyCircuit = () => {
   const R1 = useResistor("R1", {
@@ -74,6 +75,7 @@ export const MyCircuit = () => {
       <R1 schRotation="90deg" right={U1.VCC} left={U1.STBY} />
       <C2 schRotation="-90deg" left={U1.VCC} right="net.GND" />
       <C3 schRotation="-90deg" left="net.VMOTOR" right="net.GND" />
+      <C88224 name="U2" schX={-2} schY={-2} />
     </group>
   )
 }
