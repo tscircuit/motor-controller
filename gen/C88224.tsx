@@ -40,194 +40,194 @@ export const C88224 = (props: Props) => {
       footprint={
         <footprint>
           <smtpad
-            pcbX="NaNmm"
-            pcbY="NaNmm"
-            width="14.331milmm"
-            height="81.969milmm"
+            pcbX="0mm"
+            pcbY="0mm"
+            width="14.331mil"
+            height="81.969mil"
             shape="rect"
             portHints={["1"]}
           />
           <smtpad
-            pcbX="NaNmm"
-            pcbY="NaNmm"
-            width="14.331milmm"
-            height="81.969milmm"
+            pcbX="0mm"
+            pcbY="0mm"
+            width="14.331mil"
+            height="81.969mil"
             shape="rect"
             portHints={["2"]}
           />
           <smtpad
-            pcbX="NaNmm"
-            pcbY="NaNmm"
-            width="14.331milmm"
-            height="81.969milmm"
+            pcbX="0mm"
+            pcbY="0mm"
+            width="14.331mil"
+            height="81.969mil"
             shape="rect"
             portHints={["3"]}
           />
           <smtpad
-            pcbX="NaNmm"
-            pcbY="NaNmm"
-            width="14.331milmm"
-            height="81.969milmm"
+            pcbX="0mm"
+            pcbY="0mm"
+            width="14.331mil"
+            height="81.969mil"
             shape="rect"
             portHints={["4"]}
           />
           <smtpad
-            pcbX="NaNmm"
-            pcbY="NaNmm"
-            width="14.331milmm"
-            height="81.969milmm"
+            pcbX="0mm"
+            pcbY="0mm"
+            width="14.331mil"
+            height="81.969mil"
             shape="rect"
             portHints={["5"]}
           />
           <smtpad
-            pcbX="NaNmm"
-            pcbY="NaNmm"
-            width="14.331milmm"
-            height="81.969milmm"
+            pcbX="0mm"
+            pcbY="0mm"
+            width="14.331mil"
+            height="81.969mil"
             shape="rect"
             portHints={["6"]}
           />
           <smtpad
-            pcbX="NaNmm"
-            pcbY="NaNmm"
-            width="14.331milmm"
-            height="81.969milmm"
+            pcbX="0mm"
+            pcbY="0mm"
+            width="14.331mil"
+            height="81.969mil"
             shape="rect"
             portHints={["7"]}
           />
           <smtpad
-            pcbX="NaNmm"
-            pcbY="NaNmm"
-            width="14.331milmm"
-            height="81.969milmm"
+            pcbX="0mm"
+            pcbY="0mm"
+            width="14.331mil"
+            height="81.969mil"
             shape="rect"
             portHints={["8"]}
           />
           <smtpad
-            pcbX="NaNmm"
-            pcbY="NaNmm"
-            width="14.331milmm"
-            height="81.969milmm"
+            pcbX="0mm"
+            pcbY="0mm"
+            width="14.331mil"
+            height="81.969mil"
             shape="rect"
             portHints={["9"]}
           />
           <smtpad
-            pcbX="NaNmm"
-            pcbY="NaNmm"
-            width="14.331milmm"
-            height="81.969milmm"
+            pcbX="0mm"
+            pcbY="0mm"
+            width="14.331mil"
+            height="81.969mil"
             shape="rect"
             portHints={["10"]}
           />
           <smtpad
-            pcbX="NaNmm"
-            pcbY="NaNmm"
-            width="14.331milmm"
-            height="81.969milmm"
+            pcbX="0mm"
+            pcbY="0mm"
+            width="14.331mil"
+            height="81.969mil"
             shape="rect"
             portHints={["11"]}
           />
           <smtpad
-            pcbX="NaNmm"
-            pcbY="NaNmm"
-            width="14.331milmm"
-            height="81.969milmm"
+            pcbX="0mm"
+            pcbY="0mm"
+            width="14.331mil"
+            height="81.969mil"
             shape="rect"
             portHints={["12"]}
           />
           <smtpad
-            pcbX="NaNmm"
-            pcbY="NaNmm"
-            width="14.331milmm"
-            height="81.969milmm"
+            pcbX="0mm"
+            pcbY="0mm"
+            width="14.331mil"
+            height="81.969mil"
             shape="rect"
             portHints={["24"]}
           />
           <smtpad
-            pcbX="NaNmm"
-            pcbY="NaNmm"
-            width="14.331milmm"
-            height="81.969milmm"
+            pcbX="0mm"
+            pcbY="0mm"
+            width="14.331mil"
+            height="81.969mil"
             shape="rect"
             portHints={["23"]}
           />
           <smtpad
-            pcbX="NaNmm"
-            pcbY="NaNmm"
-            width="14.331milmm"
-            height="81.969milmm"
+            pcbX="0mm"
+            pcbY="0mm"
+            width="14.331mil"
+            height="81.969mil"
             shape="rect"
             portHints={["22"]}
           />
           <smtpad
-            pcbX="NaNmm"
-            pcbY="NaNmm"
-            width="14.331milmm"
-            height="81.969milmm"
+            pcbX="0mm"
+            pcbY="0mm"
+            width="14.331mil"
+            height="81.969mil"
             shape="rect"
             portHints={["21"]}
           />
           <smtpad
-            pcbX="NaNmm"
-            pcbY="NaNmm"
-            width="14.331milmm"
-            height="81.969milmm"
+            pcbX="0mm"
+            pcbY="0mm"
+            width="14.331mil"
+            height="81.969mil"
             shape="rect"
             portHints={["20"]}
           />
           <smtpad
-            pcbX="NaNmm"
-            pcbY="NaNmm"
-            width="14.331milmm"
-            height="81.969milmm"
+            pcbX="0mm"
+            pcbY="0mm"
+            width="14.331mil"
+            height="81.969mil"
             shape="rect"
             portHints={["19"]}
           />
           <smtpad
-            pcbX="NaNmm"
-            pcbY="NaNmm"
-            width="14.331milmm"
-            height="81.969milmm"
+            pcbX="0mm"
+            pcbY="0mm"
+            width="14.331mil"
+            height="81.969mil"
             shape="rect"
             portHints={["18"]}
           />
           <smtpad
-            pcbX="NaNmm"
-            pcbY="NaNmm"
-            width="14.331milmm"
-            height="81.969milmm"
+            pcbX="0mm"
+            pcbY="0mm"
+            width="14.331mil"
+            height="81.969mil"
             shape="rect"
             portHints={["17"]}
           />
           <smtpad
-            pcbX="NaNmm"
-            pcbY="NaNmm"
-            width="14.331milmm"
-            height="81.969milmm"
+            pcbX="0mm"
+            pcbY="0mm"
+            width="14.331mil"
+            height="81.969mil"
             shape="rect"
             portHints={["16"]}
           />
           <smtpad
-            pcbX="NaNmm"
-            pcbY="NaNmm"
-            width="14.331milmm"
-            height="81.969milmm"
+            pcbX="0mm"
+            pcbY="0mm"
+            width="14.331mil"
+            height="81.969mil"
             shape="rect"
             portHints={["15"]}
           />
           <smtpad
-            pcbX="NaNmm"
-            pcbY="NaNmm"
-            width="14.331milmm"
-            height="81.969milmm"
+            pcbX="0mm"
+            pcbY="0mm"
+            width="14.331mil"
+            height="81.969mil"
             shape="rect"
             portHints={["14"]}
           />
           <smtpad
-            pcbX="NaNmm"
-            pcbY="NaNmm"
-            width="14.331milmm"
-            height="81.969milmm"
+            pcbX="0mm"
+            pcbY="0mm"
+            width="14.331mil"
+            height="81.969mil"
             shape="rect"
             portHints={["13"]}
           />
