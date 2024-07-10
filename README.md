@@ -8,6 +8,14 @@ configurations for common motor controllers.
 > [!WARNING]
 > This library is a work in progress, and is not yet ready for production use.
 
+## Bill of Materials
+
+| Part      | Quantity | MPN       | JLCPN                                                                    | Description |
+| --------- | -------- | --------- | ------------------------------------------------------------------------ | ----------- |
+| TB6612FNG | 1        | TB6612FNG | [C88224](https://jlcpcb.com/partdetail/TOSHIBA-TB6612FNG_O_C_8EL/C88224) | TB6612FNG   |
+
+| ?[DMB J3/DMP3098L](https://www.diodes.com/assets/Datasheets/ds31447.pdf) | 1 | DMB J3/DMP3098L | DMB J3/DMP3098L | |
+
 ## Dev Log
 
 This looks like a pretty good motor controller chip, the [TB6612FNG](https://cdn.sparkfun.com/assets/3/c/c/9/0/TB6612FNG_datasheet_en_20121101.pdf)
