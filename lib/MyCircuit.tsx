@@ -1,7 +1,7 @@
 import { layout, useResistor, useCapacitor, useBug } from "tscircuit"
 import manual_edits from "./MyCircuit.manual-edits"
-import { TB6612, useTB6612 } from "./TB6612"
-import { C88224 } from "gen/C88224"
+import { TB6612, useTB6612 } from "gen/TB6612"
+import { DMP3098L, useDMP3098L } from "gen/DMP3098L"
 
 export const MyCircuit = () => {
   const R1 = useResistor("R1", {
@@ -24,7 +24,43 @@ export const MyCircuit = () => {
     schY: -2,
   })
 
+  const JP1 = useBug("JP1", {
+    pinLabels: {
+      1: "PWRIN",
+      2: "VCC",
+      3: "PWMB",
+      5: "BIN2",
+      6: "BIN1",
+      7: "STBY",
+      8: "AIN1",
+      9: "AIN2",
+      10: "PWMA"
+    },
+    schPortArrangement: {
+      rightSize: 10,
+    },
+    schX: -12,
+    schY: 4
+  })
+
+  const J1 = useBug("J1", {
+    footprint: "tssop2",
+    pinLabels: {
+      1: "PWRIN",
+      2: "GND",
+    }, 
+    schX: -12,
+    schY: -2,
+    schPortArrangement: {
+      rightSide: {
+        direction: "top-to-bottom",
+        pins: [2, 1],
+      }
+    }
+  })
+
   const JP3 = useBug("JP3", {
+    footprint: "tssop5",
     pinLabels: {
       1: "MA1",
       2: "MA2",
@@ -37,6 +73,13 @@ export const MyCircuit = () => {
     schPortArrangement: {
       leftSize: 5,
     },
+  })
+
+  const Q1 = useDMP3098L("Q1", {
+    schX: -8,
+    schY: -2,
+    pcbX: 10,
+    pcbY: 10,
   })
 
   // Why is autolayout not working!!!!!! It puts JP3 on the left!
@@ -71,11 +114,13 @@ export const MyCircuit = () => {
         AOUT2_1={JP3.MA2}
         AOUT2_2={U1.AOUT2_1}
       />
+      <J1 GND="net.GND" PWRIN="net.PWRIN" />
+      <JP1 PWRIN="net.PWRIN" VCC="net.VCC" PWMB="net.PWMB" BIN2="net.BIN2" BIN1="net.BIN1" STBY="net.STBY" AIN1="net.AIN1" AIN2="net.AIN2" PWMA="net.PWMA" />
       <JP3 GND="net.GND" />
       <R1 schRotation="90deg" right={U1.VCC} left={U1.STBY} />
       <C2 schRotation="-90deg" left={U1.VCC} right="net.GND" />
       <C3 schRotation="-90deg" left="net.VMOTOR" right="net.GND" />
-      <C88224 name="U2" schX={-2} schY={-2} />
+      <Q1 S={C3.left} G={C3.right} D={J1.PWRIN} />
     </group>
   )
 }

@@ -37,8 +37,8 @@ export default {
         "_edit_event_id": "0.698321896197684",
         "selector": ".C2",
         "center": {
-          "x": 12.069849623214214,
-          "y": 3.946139621117802
+          "x": 2.0952744859109593,
+          "y": -3.519538247005859
         },
         "relative_to": "group_center"
       },
@@ -61,27 +61,27 @@ export default {
         "relative_to": "group_center"
       }
     ],
-    edit_events: [],
-    manual_trace_hints: [
-      {
-        "pcb_port_selector": ".C2 > .left",
-        "offsets": [
-          {
-            "x": 7.35804070244359,
-            "y": -1.1224636088241784,
-            "via": false
-          },
-          {
-            "x": 6.5855467594075385,
-            "y": -0.5782065125942317,
-            "via": true
-          },
-          {
-            "x": 1.8803563790970428,
-            "y": 4.794137727611036,
-            "via": true
-          }
-        ]
-      }
-    ]
+  edit_events: [],
+  manual_trace_hints: [
+    {
+      "pcb_port_selector": ".C2 > .left",
+      "offsets": [
+        {
+          "x": -0.46567037894333296,
+          "y": -3.0697423658834904,
+          "via": false
+        }
+      ]
+    },
+    {
+      "pcb_port_selector": ".U1 > .VCC",
+      "offsets": [
+        {
+          "x": -0.87561338712114,
+          "y": -2.3188874876950147,
+          "via": false
+        }
+      ]
+    }
+  ],
 }
