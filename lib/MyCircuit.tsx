@@ -34,13 +34,13 @@ export const MyCircuit = () => {
       7: "STBY",
       8: "AIN1",
       9: "AIN2",
-      10: "PWMA"
+      10: "PWMA",
     },
     schPortArrangement: {
       rightSize: 10,
     },
     schX: -12,
-    schY: 4
+    schY: 4,
   })
 
   const J1 = useBug("J1", {
@@ -48,15 +48,15 @@ export const MyCircuit = () => {
     pinLabels: {
       1: "PWRIN",
       2: "GND",
-    }, 
+    },
     schX: -12,
     schY: -2,
     schPortArrangement: {
       rightSide: {
         direction: "top-to-bottom",
         pins: [2, 1],
-      }
-    }
+      },
+    },
   })
 
   const JP3 = useBug("JP3", {
@@ -115,7 +115,17 @@ export const MyCircuit = () => {
         AOUT2_2={U1.AOUT2_1}
       />
       <J1 GND="net.GND" PWRIN="net.PWRIN" />
-      <JP1 PWRIN="net.PWRIN" VCC="net.VCC" PWMB="net.PWMB" BIN2="net.BIN2" BIN1="net.BIN1" STBY="net.STBY" AIN1="net.AIN1" AIN2="net.AIN2" PWMA="net.PWMA" />
+      <JP1
+        PWRIN="net.PWRIN"
+        VCC="net.VCC"
+        PWMB="net.PWMB"
+        BIN2="net.BIN2"
+        BIN1="net.BIN1"
+        STBY="net.STBY"
+        AIN1="net.AIN1"
+        AIN2="net.AIN2"
+        PWMA="net.PWMA"
+      />
       <JP3 GND="net.GND" />
       <R1 schRotation="90deg" right={U1.VCC} left={U1.STBY} />
       <C2 schRotation="-90deg" left={U1.VCC} right="net.GND" />
