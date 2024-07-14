@@ -130,7 +130,7 @@ export const MyCircuit = () => {
         STBY="net.STBY"
         AIN1="net.AIN1"
         AIN2="net.AIN2"
-        PWMA="net.PWMA"
+        PWMA={U1.PWMA}
       />
       <JP3 GND="net.GND" pcbRotation="90deg" />
       <R1 schRotation="90deg" right={U1.VCC} left={U1.STBY} />

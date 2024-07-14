@@ -20,7 +20,7 @@ export default {
         "selector": ".U1",
         "center": {
           "x": 1.746095876782892,
-          "y": 2.475930830364173
+          "y": 2.6307740436924716
         },
         "relative_to": "group_center"
       },
@@ -48,15 +48,6 @@ export default {
         "center": {
           "x": 9.701708433778615,
           "y": -8.173734229851792
-        },
-        "relative_to": "group_center"
-      },
-      {
-        "_edit_event_id": "0.14577610722156287",
-        "selector": ".U2",
-        "center": {
-          "x": -10.924629278567146,
-          "y": 1.0619322663050923
         },
         "relative_to": "group_center"
       },
@@ -106,6 +97,16 @@ export default {
         {
           "x": -0.87561338712114,
           "y": -2.3188874876950147,
+          "via": false
+        }
+      ]
+    },
+    {
+      "pcb_port_selector": ".U1 > .BOUT2_1",
+      "offsets": [
+        {
+          "x": -3.9063496567089153,
+          "y": 2.917975289802527,
           "via": false
         }
       ]
