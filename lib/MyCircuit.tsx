@@ -2,6 +2,7 @@ import { layout, useResistor, useCapacitor, useBug } from "tscircuit"
 import manual_edits from "./MyCircuit.manual-edits"
 import { TB6612, useTB6612 } from "gen/TB6612"
 import { DMP3098L, useDMP3098L } from "gen/DMP3098L"
+import { MountingHole } from "./MountingHole"
 
 export const MyCircuit = () => {
   const R1 = useResistor("R1", {
@@ -26,6 +27,7 @@ export const MyCircuit = () => {
 
   const JP1 = useBug("JP1", {
     footprint: "pinrow10",
+    pcbRotation: "90deg",
     pinLabels: {
       1: "PWRIN",
       2: "VCC",
@@ -91,7 +93,10 @@ export const MyCircuit = () => {
         // .autoLayoutSchematic()
       }
     >
+      <MountingHole pcbX={-10} pcbY={10} />
+      <MountingHole pcbX={-10} pcbY={-10} />
       <U1
+        pcbRotation="90deg"
         VM1="net.VMOTOR"
         VM2="net.VMOTOR"
         VM3="net.VMOTOR"
@@ -127,7 +132,7 @@ export const MyCircuit = () => {
         AIN2="net.AIN2"
         PWMA="net.PWMA"
       />
-      <JP3 GND="net.GND" />
+      <JP3 GND="net.GND" pcbRotation="90deg" />
       <R1 schRotation="90deg" right={U1.VCC} left={U1.STBY} />
       <C2 schRotation="-90deg" left={U1.VCC} right="net.GND" />
       <C3 schRotation="-90deg" left="net.VMOTOR" right="net.GND" />
