@@ -25,6 +25,7 @@ export const MyCircuit = () => {
   })
 
   const JP1 = useBug("JP1", {
+    footprint: "pinrow10",
     pinLabels: {
       1: "PWRIN",
       2: "VCC",
@@ -44,7 +45,7 @@ export const MyCircuit = () => {
   })
 
   const J1 = useBug("J1", {
-    footprint: "tssop2",
+    footprint: "pinrow2",
     pinLabels: {
       1: "PWRIN",
       2: "GND",
@@ -60,7 +61,7 @@ export const MyCircuit = () => {
   })
 
   const JP3 = useBug("JP3", {
-    footprint: "tssop5",
+    footprint: "pinrow5",
     pinLabels: {
       1: "MA1",
       2: "MA2",

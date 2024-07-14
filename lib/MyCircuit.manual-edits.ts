@@ -19,8 +19,8 @@ export default {
         "_edit_event_id": "0.5340332929499954",
         "selector": ".U1",
         "center": {
-          "x": 0.16047563200552872,
-          "y": 3.0045970734593066
+          "x": -3.3585912385066017,
+          "y": 3.7224241957255604
         },
         "relative_to": "group_center"
       },
@@ -57,6 +57,33 @@ export default {
         "center": {
           "x": -10.924629278567146,
           "y": 1.0619322663050923
+        },
+        "relative_to": "group_center"
+      },
+      {
+        "_edit_event_id": "0.6146476940172356",
+        "selector": ".JP1",
+        "center": {
+          "x": -1.9670599776006608,
+          "y": 15.760719585762924
+        },
+        "relative_to": "group_center"
+      },
+      {
+        "_edit_event_id": "0.11940755994421504",
+        "selector": ".J1",
+        "center": {
+          "x": 1.3014429695948238,
+          "y": -13.628408656520577
+        },
+        "relative_to": "group_center"
+      },
+      {
+        "_edit_event_id": "0.7478320278304127",
+        "selector": ".JP3",
+        "center": {
+          "x": -10.482995065483658,
+          "y": -6.1923754916102105
         },
         "relative_to": "group_center"
       }
