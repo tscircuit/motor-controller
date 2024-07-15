@@ -19,8 +19,8 @@ export default {
         "_edit_event_id": "0.5340332929499954",
         "selector": ".U1",
         "center": {
-          "x": 1.746095876782892,
-          "y": 2.6307740436924716
+          "x": 0.9564573970858952,
+          "y": 1.1525186859002456
         },
         "relative_to": "group_center"
       },
@@ -28,8 +28,8 @@ export default {
         "_edit_event_id": "0.6227520277242637",
         "selector": ".R1",
         "center": {
-          "x": 1.9299614017752447,
-          "y": 7.7243658318277015
+          "x": 4.508803742867368,
+          "y": 6.548303105361264
         },
         "relative_to": "group_center"
       },
@@ -37,8 +37,8 @@ export default {
         "_edit_event_id": "0.698321896197684",
         "selector": ".C2",
         "center": {
-          "x": 2.0952744859109593,
-          "y": -3.519538247005859
+          "x": 2.0508160789814376,
+          "y": -5.349987759684872
         },
         "relative_to": "group_center"
       },
@@ -46,8 +46,8 @@ export default {
         "_edit_event_id": "0.694421244981795",
         "selector": ".C3",
         "center": {
-          "x": 9.701708433778615,
-          "y": -8.173734229851792
+          "x": 2.0767169908372143,
+          "y": -7.634963326858433
         },
         "relative_to": "group_center"
       },
@@ -55,8 +55,8 @@ export default {
         "_edit_event_id": "0.6146476940172356",
         "selector": ".JP1",
         "center": {
-          "x": 14.285834859193642,
-          "y": -1.0621258219412475
+          "x": 7.200983118705036,
+          "y": -0.05878186520397222
         },
         "relative_to": "group_center"
       },
@@ -64,8 +64,8 @@ export default {
         "_edit_event_id": "0.11940755994421504",
         "selector": ".J1",
         "center": {
-          "x": 1.5803934242670934,
-          "y": -10.745920624907164
+          "x": -0.15501613420420313,
+          "y": -10.228511110983444
         },
         "relative_to": "group_center"
       },
@@ -73,8 +73,17 @@ export default {
         "_edit_event_id": "0.7478320278304127",
         "selector": ".JP3",
         "center": {
-          "x": -10.015882522757462,
-          "y": -0.29254949341672365
+          "x": -5.994795260596689,
+          "y": -0.3929636504365792
+        },
+        "relative_to": "group_center"
+      },
+      {
+        "_edit_event_id": "0.767945008702394",
+        "selector": ".Q1",
+        "center": {
+          "x": 0.5764983901285063,
+          "y": 9.292442544944734
         },
         "relative_to": "group_center"
       }
@@ -82,34 +91,34 @@ export default {
   edit_events: [],
   manual_trace_hints: [
     {
-      "pcb_port_selector": ".C2 > .left",
-      "offsets": [
+      pcb_port_selector: ".C2 > .left",
+      offsets: [
         {
-          "x": -0.46567037894333296,
-          "y": -3.0697423658834904,
-          "via": false
-        }
-      ]
+          x: -0.46567037894333296,
+          y: -3.0697423658834904,
+          via: false,
+        },
+      ],
     },
     {
-      "pcb_port_selector": ".U1 > .VCC",
-      "offsets": [
+      pcb_port_selector: ".U1 > .VCC",
+      offsets: [
         {
-          "x": -0.87561338712114,
-          "y": -2.3188874876950147,
-          "via": false
-        }
-      ]
+          x: -0.87561338712114,
+          y: -2.3188874876950147,
+          via: false,
+        },
+      ],
     },
     {
-      "pcb_port_selector": ".U1 > .BOUT2_1",
-      "offsets": [
+      pcb_port_selector: ".U1 > .BOUT2_1",
+      offsets: [
         {
-          "x": -3.9063496567089153,
-          "y": 2.917975289802527,
-          "via": false
-        }
-      ]
-    }
+          x: -3.9063496567089153,
+          y: 2.917975289802527,
+          via: false,
+        },
+      ],
+    },
   ],
 }

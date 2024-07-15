@@ -10,6 +10,10 @@ export const MyCircuit = () => {
     footprint: "res0402",
     schX: -5,
     schY: 0,
+    cadModel: {
+      objUrl:
+        "https://modelcdn.tscircuit.com/easyeda_models/download?uuid=25f113603be24a279bc54a86db776d75&pn=C100195",
+    },
   })
   const U1 = useTB6612("U1")
   const C2 = useCapacitor("C2", {
@@ -17,12 +21,20 @@ export const MyCircuit = () => {
     footprint: "cap0603",
     schX: -4,
     schY: 1,
+    cadModel: {
+      objUrl:
+        "https://modelcdn.tscircuit.com/easyeda_models/download?uuid=ac9b32e974bc448eab36b1293f859dcb&pn=C100040",
+    },
   })
   const C3 = useCapacitor("C3", {
     capacitance: "1uF", // TODO
     footprint: "cap0603",
     schX: -6,
     schY: -2,
+    cadModel: {
+      objUrl:
+        "https://modelcdn.tscircuit.com/easyeda_models/download?uuid=ac9b32e974bc448eab36b1293f859dcb&pn=C100040",
+    },
   })
 
   const JP1 = useBug("JP1", {
@@ -64,6 +76,10 @@ export const MyCircuit = () => {
 
   const JP3 = useBug("JP3", {
     footprint: "pinrow5",
+    supplierPartNumbers: {
+      jlcpcb: ["C124379"],
+    },
+    layer: "bottom",
     pinLabels: {
       1: "MA1",
       2: "MA2",
@@ -75,6 +91,11 @@ export const MyCircuit = () => {
     schY: 0,
     schPortArrangement: {
       leftSize: 5,
+    },
+    cadModel: {
+      rotationOffset: { x: 0, y: 180, z: 0 },
+      objUrl:
+        "https://modelcdn.tscircuit.com/easyeda_models/download?uuid=6331f645d89e4b919bdba0cb4f3544ce&pn=C124379",
     },
   })
 
@@ -93,8 +114,8 @@ export const MyCircuit = () => {
         // .autoLayoutSchematic()
       }
     >
-      <MountingHole pcbX={-10} pcbY={10} />
-      <MountingHole pcbX={-10} pcbY={-10} />
+      <MountingHole pcbX={-6} pcbY={10} />
+      <MountingHole pcbX={-6} pcbY={-10} />
       <U1
         pcbRotation="90deg"
         VM1="net.VMOTOR"
