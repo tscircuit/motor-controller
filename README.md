@@ -14,10 +14,11 @@ configurations for common motor controllers.
 | --------- | -------- | --------- | ------------------------------------------------------------------------ | ----------- |
 | TB6612FNG | 1        | TB6612FNG | [C88224](https://jlcpcb.com/partdetail/TOSHIBA-TB6612FNG_O_C_8EL/C88224) | TB6612FNG   |
 
-| ?[DMB J3/DMP3098L](https://www.diodes.com/assets/Datasheets/ds31447.pdf) | 1 | DMB J3/DMP3098L | C4355039 | |
-| C1 | 1 | 10uF | | 0805 |
-| C2 | 1 | 100nF | | 0805 |
-| R1 | 1 | 10k | | |
+| [DMB J3/DMP3098L](https://www.diodes.com/assets/Datasheets/ds31447.pdf) | 1   | DMB J3/DMP3098L | C4355039 |
+| ------------------------------------------------------------------------ | --- | --------------- | -------- |
+| C1                                                                       | 1   | 10uF            | 0805     |
+| C2                                                                       | 1   | 100nF           | 0805     |
+| R1                                                                       | 1   | 10k             |          |
 
 > NOTE: The C1 and R1 values haven't been measured yet- just guessing
 
