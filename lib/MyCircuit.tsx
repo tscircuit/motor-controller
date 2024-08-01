@@ -154,7 +154,12 @@ export const MyCircuit = () => {
         PWMA={U1.PWMA}
       />
       <JP3 GND="net.GND" pcbRotation="90deg" />
-      <R1 schRotation="90deg" right={U1.VCC} left={U1.STBY} />
+      <R1
+        pcbRotation="180deg"
+        schRotation="90deg"
+        right={U1.VCC}
+        left={U1.STBY}
+      />
       <C2 schRotation="-90deg" left={U1.VCC} right="net.GND" />
       <C3 schRotation="-90deg" left="net.VMOTOR" right="net.GND" />
       <Q1 S={C3.left} G={C3.right} D={J1.PWRIN} />

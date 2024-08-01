@@ -14,13 +14,13 @@
   "description": "",
   "devDependencies": {
     "@biomejs/biome": "^1.8.3",
-    "@tscircuit/builder": "^1.5.142",
-    "tscircuit": "^0.0.224",
+    "@tscircuit/builder": "^1.9.0",
+    "tscircuit": "^0.0.255",
     "tsx": "^4.15.6",
     "typescript": "^5.5.2"
   },
   "type": "module",
   "dependencies": {
-    "@tscircuit/soup-util": "^0.0.13"
+    "@tscircuit/soup-util": "^0.0.15"
   }
 }
